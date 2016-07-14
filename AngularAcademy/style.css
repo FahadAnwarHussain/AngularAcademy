@@ -1,0 +1,187 @@
+body
+{
+    margin:0;
+    background-color: moccasin;
+}
+#topList
+{
+    background-color: white;
+    height: 40px;
+
+}
+#topList-1>ul>li>text
+{
+    color:gray;
+    text-align: right;
+}
+#topList-1
+{
+    
+    text-align: right;
+}
+#topList-1>ul>li
+{
+     text-decoration: none;
+     display: inline-block;
+    padding: 12px  12px  12px  12px;
+   
+}
+#topList-1>ul>li>a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: orangered;
+    text-decoration: none;
+}
+
+#topList-1>ul>li>a:hover
+{
+    text-decoration: underline;
+    color: navy;
+}
+
+#mainHeader
+{
+    background-color: orangered;
+    
+}
+#bottomList
+{
+    border:1px solid orangered;
+    background-color: orangered; 
+}
+#bottomList-1
+{
+    background-color: orangered;
+    margin:0 auto;
+    height:70px;
+     
+}
+#bottomList-1>ul>li
+{
+    margin-top:10px;
+    background-color: orangered;
+    display: inline-block;
+    text-decoration-style: none;
+    padding: 20px  15px  20px  15px;
+    
+    text-align: center;
+    
+}
+
+#bottomList-1>ul>li>a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    
+}
+.aboutDiv,.admDiv,.acadDiv,.resDiv,.outDiv,.artsDiv,.athDiv
+{
+    display: none;
+}
+
+.aboutDiv,.admDiv,.acadDiv,.resDiv,.outDiv,.artsDiv,.athDiv
+{
+    background-color:white;
+    height: 300px;
+    width:80%;
+    margin:0 auto;
+}
+
+
+/*a.anchorAbout:hover div.aboutDiv
+{
+    display: block;
+    background-color:white;
+    height: 450px;
+    position: absolute;
+}*/
+
+@media screen and (min-width:1000px)
+{
+     #mainHeader
+    {
+        width:100%;
+        height:250px;
+    }
+
+    #topList
+    {
+        width:100%;
+        //height:100px;
+    }
+     #bottomList
+    {
+        width:100%;
+        height:120px;
+    }
+         #bottomList-1
+    {
+        width:80%;
+    }
+    .aboutDiv,.admDiv,.acadDiv,.resDiv,.outDiv,.artsDiv,.athDiv
+    {
+        width: 50%;
+        height:200px;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+     #mainHeader
+    {
+        width:100%;
+        height:250px;
+        
+    }
+    #topList
+    {
+        width:100%;
+        //height:100px;
+    }
+     #bottomList
+    {
+        width:100%;
+        height:120px;
+    }
+     #bottomList-1
+    {
+        width:80%;
+    }
+    .aboutDiv,.admDiv,.acadDiv,.resDiv,.outDiv,.artsDiv,.athDiv
+    {
+        width: 100%;
+        height:200px;
+    }
+}
+@media screen and (min-width:468px)
+{
+     #mainHeader
+    {
+        width:100%;
+        height:350PX;
+    }
+    #topList
+    {
+        width:100%;
+        
+    }
+     #bottomList
+    {
+        width:100%;
+        height:85px;
+    }
+         #bottomList-1
+    {
+        width:80%;
+    }
+    .aboutDiv,.admDiv,.acadDiv,.resDiv,.outDiv,.artsDiv,.athDiv
+    {
+        width: 80%;
+        height:300px;
+    }
+
+}

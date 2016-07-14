@@ -1,0 +1,156 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Institute of Technology</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+               //---------- About--------------
+                $(".anchorAbout").hover(function(){
+                    $(".aboutDiv").show();
+                    $(".anchorAbout").css("background-color","white");
+                    $(".anchorAbout").css("color","navy");
+                });
+
+                $(".anchorAbout").mouseout(function(){
+
+                    $(".aboutDiv").hide();
+                    $(".anchorAbout").css("background-color","orangered");
+                    $(".anchorAbout").css("color","white");
+                });
+                
+                //---------- Admission--------------
+                  $(".anchorAdm").hover(function(){
+                    $(".admDiv").show();
+                    $(".anchorAdm").css("background-color","white");
+                    $(".anchorAdm").css("color","navy");
+                });
+
+                $(".anchorAdm").mouseout(function(){
+
+                    $(".admDiv").hide();
+                    $(".anchorAdm").css("background-color","orangered");
+                    $(".anchorAdm").css("color","white");
+                });
+                
+                 //---------- Academics--------------
+                  $(".anchorAcad").hover(function(){
+                    $(".acadDiv").show();
+                    $(".anchorAcad").css("background-color","white");
+                    $(".anchorAcad").css("color","navy");
+                });
+
+                $(".anchorAcad").mouseout(function(){
+
+                    $(".acadDiv").hide();
+                    $(".anchorAcad").css("background-color","orangered");
+                    $(".anchorAcad").css("color","white");
+                });
+                
+                      //---------- out reach--------------
+                  $(".anchorRes").hover(function(){
+                    $(".resDiv").show();
+                    $(".anchorRes").css("background-color","white");
+                    $(".anchorRes").css("color","navy");
+                });
+
+                $(".anchorRes").mouseout(function(){
+
+                    $(".resDiv").hide();
+                    $(".anchorRes").css("background-color","orangered");
+                    $(".anchorRes").css("color","white");
+                });
+                
+                  //---------- out reach--------------
+                  $(".anchorOut").hover(function(){
+                    $(".outDiv").show();
+                    $(".anchorOut").css("background-color","white");
+                    $(".anchorOut").css("color","navy");
+                });
+
+                $(".anchorOut").mouseout(function(){
+
+                    $(".outDiv").hide();
+                    $(".anchorOut").css("background-color","orangered");
+                    $(".anchorOut").css("color","white");
+                });
+                
+                
+
+
+});
+</script>
+    
+</head>
+<body>
+    <div id="topList">
+        <div id="topList-1">
+            <ul>
+                <li><text>Resources For </text>
+                    </li>
+                <li>
+                    <a href="#">STUDENTS</a>
+                </li>
+                <li>
+                    <a href="#">FACULTY & STAFF</a>
+                </li>
+                <li>
+                    <a href="#">ALUMNI</a>
+                </li><li>
+                    <a href="#">PARENTS</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="mainHeader">
+        
+    </div>
+    <div id="bottomList">
+        <div id="bottomList-1">
+        <ul>
+                <li class="anchorAbout">
+                    <a href="#" class="anchorAbout" >About</a>
+                </li>
+                <li class="anchorAdm">
+                    <a href="#" class="anchorAdm">Admissions</a>
+                </li>
+                <li class="anchorAcad">
+                    <a href="#" class="anchorAcad">Academics</a>
+                </li>
+                <li class="anchorRes">
+                    <a href="#" class="anchorRes">Research</a>
+                </li>
+                <li  class="anchorOut">
+                    <a href="#"  class="anchorOut">Outreach</a>
+                </li>
+                <li  class="anchorInt">
+                    <a href="#"  class="anchorInt">International</a>
+                </li>
+                 <li  class="anchorArts">
+                    <a href="#"  class="anchorArts">Arts & Culture</a>
+                </li>
+                 <li  class="anchorAth">
+                    <a href="#"  class="anchorAth">Athletics</a>
+                </li>
+            </ul>
+    </div>
+    
+        
+    
+    
+    </div>
+    <div class="moreDivs">
+        <div class="aboutDiv"></div>
+        <div class="admDiv"></div>
+        <div class="acadDiv"></div>
+        <div class="resDiv"></div>
+        <div class="outDiv"></div>
+        <div class="intDiv"></div>
+        <div class="artsDiv"></div>
+        <div class="athDiv"></div>
+    </div>
+</body>
+</html>
